@@ -68,6 +68,9 @@ function playRound(humanChoice, computerChoice){
         console.log("You Win! Scissors Beats Paper");
         humanScore +=1;
     }
+    else{
+        console.log("Invalid input!")
+    }
 }
 
 //playGame() function uses a for loop which then calls getHumanChoice() and getComputerChoice(), taking their respective return values and passing them to the playRound(args1, args2).
